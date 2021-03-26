@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+	
+}
+
+
+
+/*navbar*/
+.logo-nav{
+	font-size: 10px;
+}
+
+li, a {
+	font-family: "Oswald", sans-serif;
+	font-weight: 500;
+	color: black;
+	text-decoration: none;
+}	
+
+header {
+	padding: 10px 10%;
+	background-color: white;
+
+
+}
+div .logo {
+	width: 150px;
+	position: absolute;
+	top: -18px;
+	left: 5px;
+
+
+}
+.logo {
+	cursor: pointer;
+
+}
+
+li {
+		display: inline-block;
+		padding: 0px 10px;
+
+	}
+li , a:hover{
+		color: grey;
+}
+
+.navbar-icon {
+	position: absolute;
+	right: 100px;
+	top: -1px;
+
+
+}
+.navbar-icon .logo {
+	width: 90px;
+}
+
+/*grid-image*/
+
+.row {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.column img {
+  width: 92%;
+  height: 95%;
+}
+
+/*footer*/
+.footer-text {
+    font-family: "Oswald", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding: 90px;
+    line-height: 2;
+
+}
+
